@@ -1,0 +1,39 @@
+body {
+	background-image: url('bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family:Courier new,monospace;
+    text-align: center;
+    background-color:transparent;
+    color: #4CAF50; //Green
+    cursor: pointer;
+   }
+   
+p {
+	color:white;
+	font-family: Courier new,monospace;
+	font-size: 50px;
+	text-align:center;
+	position:fixed;
+}
+
+footer {
+    text-align: center;
+    color: rgba(0, 255, 0, 0.8); /* Lighter transparent white */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:transparent;
+    text-align: center;
+    padding: 10px 0;
+    font-family:Courier new,monospace;
+    font-size: 20px; 
+}
+
+b {
+	color:red;
+}
