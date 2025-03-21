@@ -1,31 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta name="monetag" content="c436c216cb65231a7b41abd2291d3f93">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oahid Towsif Shamol - ots249</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Tools with Admin Option</title>
+  <!-- Bootstrap CSS -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" 
+    rel="stylesheet"
+  >
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<h1><b>O</b>ahid <b>T</b>owsif <b>S</b>hamol</h1>
-	
-	<p>What are you thinking about <b>ots249</b>?</p>
-	
-    <footer>
-    Developed by <b>Towsif</b> &copy; 2021-2025
-    </footer>
-    
-	<audio autoplay="autoplay" loop="loop" >
-	<source src="bg.mp3" type="audio/mpeg" >
-	</audio>
-	
-    <script src="script.js"></script>
+  <div class="container my-5">
+    <h1 class="text-center">Web Tools</h1>
+    <p class="text-center">Click on a button below to use the tool:</p>
+    <div class="d-flex flex-wrap justify-content-center gap-3" id="tools-list">
+      <button class="btn tool-btn btn-unit" data-url="/webtools/unit-converter">Unit Converter</button>
+      <button class="btn tool-btn btn-tic-tac-toe" data-url="/webtools/tic-tac-toe">Tic-Tac-Toe</button>
+      <button class="btn tool-btn btn-age" data-url="/webtools/age-calculator">Age Calculator</button>
+      <button class="btn tool-btn btn-turecaller" data-url="/webtools/Truecaller">Truecaller</button>
+      <button class="btn tool-btn btn-customsms" data-url="/webtools/customsms">Custom SMS</button>
+    </div>
+
+    <div class="text-center mt-5">
+      <button class="btn tool-btn btn-admin" data-url="https://s.id/ots249">Admin</button>
+    </div>
+  </div>
+  <footer>
+  Developed by <b>Towsif</b> &copy; 2021-2025
+  </footer>
+  <!-- Bootstrap JS -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+  ></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
 </body>
 </html>
