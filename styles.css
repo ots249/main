@@ -1,0 +1,120 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #343a40;
+  animation: fadeInDown 1s ease;
+}
+
+p {
+  color: #6c757d;
+  animation: fadeInUp 1s ease;
+}
+
+#tools-list {
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.tool-btn {
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tool-btn:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.tool-btn:active {
+  transform: scale(0.95);
+}
+
+/* Custom Colors */
+.btn-unit {
+  background-color: #4285F4;
+}
+
+.btn-tic-tac-toe {
+  background-color: #000000;
+}
+
+.btn-age {
+  background-color: #00C4CC;
+}
+
+.btn-turecaller {
+  background-color: #333333;
+}
+
+.btn-customsms  {
+  background-color: #F48024;
+}
+
+/* Admin Button Style */
+.btn-admin {
+  background-color: #6c757d; /* Gray */
+  padding: 20px 40px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.btn-admin:hover {
+  background-color: #495057; /* Darker Gray */
+  transform: translateY(-5px);
+}
+
+.btn-admin:active {
+  transform: scale(0.95);
+}
+
+b {
+	color:red;
+}
+
+footer {
+    text-align: center;
+    color: rgba(0, 255, 0, 0.8); /* Lighter transparent white */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    text-align: center;
+    padding: 10px 0;
+    font-family:Courier new,monospace;
+    font-size: 15px; 
+}
+
+/* Animations */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
